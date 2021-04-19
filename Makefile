@@ -4,3 +4,6 @@ setup:
 
 init:
 	docker run -it -v $(CURDIR)/src:/src node npm init
+
+install:
+	docker run -it -v $(CURDIR)/src:/src node npm install
